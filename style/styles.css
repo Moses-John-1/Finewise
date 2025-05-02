@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #c7c1c0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #f9fbfc;
+  width: 800px;
+  height: 600px;
+  padding: 40px 60px;
+  position: relative;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nav-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.form-box {
+  max-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-box h2 {
+  font-size: 24px;
+  color: #111827;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.form-box h2 span {
+  color: #2563eb;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: left;
+}
+
+label {
+  font-size: 12px;
+  color: #333;
+}
+
+input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.password-box {
+  position: relative;
+}
+
+.password-box input {
+  width: 100%;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.submit-btn {
+  margin-top: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-link {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  color: #666;
+}
+
+.login-link a {
+  color: #2563eb;
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f6f9fc;
+}
+
+.container {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.header h2 {
+  font-size: 20px;
+  color: #1d4ed8;
+}
+
+.top-button {
+  padding: 5px 15px;
+  font-size: 12px;
+  border: 1px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.form-box h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.form-box .blue {
+  color: #1d4ed8;
+}
+
+.form-box p {
+  margin-bottom: 24px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #6b7280;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+}
+
+.password-box {
+  position: relative;
+}
+
+.password-box input {
+  padding-right: 35px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.options a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: #1d4ed8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
